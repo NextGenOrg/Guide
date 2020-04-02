@@ -35,7 +35,7 @@ Here is a simple example of how to use the event manager ready:
 client.on("ready", () => { 
 
  client.user.setActivity('NextGen Docs', { type: 'WATCHING' });
- console.log(`Ready to serve on ${client.guilds.size} servers, for ${client.users.size} users.`);
+ console.log(`Ready to serve on ${client.guilds.cache.size} servers, for ${client.users.cache.size} users.`);
 
  });
 ```
