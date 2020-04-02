@@ -6,7 +6,7 @@ description: Here's how to install the discord.js and node.js package
 
 To use discord.js and start programming you will need a couple of things installed. At least, at least:
 
-* Node.js v8 or higher \(earlier versions are not supported\).
+* Node.js v12 or higher \(earlier versions are not supported\).
 * Get a real code editor. Don't use the notepad, it's not enough. If you do not have a code editor installed go to [Installing a code editor](https://logicdevelopment.gitbook.io/guide/~/edit/drafts/-LIjcwWX-vtS__ACNj3s/installing-discord.js-and-node.js)
 
 ## Installing Node.js
