@@ -33,9 +33,6 @@ Sublime Text 3 starts with a simple interface with a nice screen. You have the a
 
 * Open Sublime Text 3
 * Go to File, Open folder.
-* or you can drag the folder to the editor
-
-![](../.gitbook/assets/mev6mnrquy.gif)
 
 * Locate the main folder and click Select Folder \(Your files will not appear, only the folder structure\)
 * To the left of the editor you will see all the files. Simply double-click on any of them to view and start editing.
