@@ -25,8 +25,6 @@ client.user.setActivity('NextGen Docs', { type: 'WATCHING' });
 client.login("SuperSecretBotTokenHere");
 ```
 
-![](../.gitbook/assets/discord_cuu0wgm1wo.png)
-
 This code will not work, because the client is not available immediately after it has been initialized. client.user will be indefinite in this case, even if we flip the console.log and login lines. This is because it takes a small amount of time for discord.js to load your servers, users, channels and all that stuff. The more servers the bot has, the longer it takes.
 
 To ensure that the customer and all his "stuff" is ready, we can use the event ready. Any code you wish to execute at boot time that requires access to the client object must be in this case.
@@ -36,11 +34,13 @@ Here is a simple example of how to use the event manager ready:
 ```javascript
 client.on("ready", () => { 
 
- client.user.setActivity(`on ${client.guilds.size} servers`);  
+ client.user.setActivity('NextGen Docs', { type: 'WATCHING' });
  console.log(`Ready to serve on ${client.guilds.size} servers, for ${client.users.size} users.`);
 
  });
 ```
+
+![](../.gitbook/assets/discord_cuu0wgm1wo.png)
 
 ## GuildMemberAdd event
 
