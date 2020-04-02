@@ -16,7 +16,7 @@ To avoid this we will create a prefix, as well as the ability to change the pref
 
 Well, there are two ways to create and use a variable as a prefix:
 
-1. Creating a variable within the same logic.js file as a prefix.
+1. Creating a variable within the same nextgen.js file as a prefix.
 2. Divide the configuration of variables into parts, creating a.js file.
 
 ## Create the config.js file in your bot
@@ -52,7 +52,7 @@ Save the change using \(CONTROL + S\).
 
 ## Prefix and token variable
 
-At the top of your bot logic.js file, we added a line to call the config.js file using a variable.
+At the top of your bot nextgen.js file, we added a line to call the config.js file using a variable.
 
 ```javascript
 const Discord = require("discord.js");

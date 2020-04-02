@@ -30,7 +30,7 @@ Once we have thought of a creative name for our bot and then set a general pictu
 The first thing to note is your bot's token in the "Copy" section \(in the image highlighted in a red box\):
 
 {% hint style="danger" %}
-**WARNING:** Your bot's token is equivalent to an account's password and email address \(not yours\), so never share this code with anyone else but yourself who is not absolutely trustworthy as they may misuse the token.
+ **WARNING:** Your bot's token is equivalent to an account's password and email address \(not yours\), so never share this code with anyone else but yourself who is not absolutely trustworthy as they may misuse the token.
 {% endhint %}
 
 ![](../.gitbook/assets/msedge_i6otwwwr5z.png)
@@ -43,7 +43,7 @@ Now we go back to the "General Information" tab where we get the id of your bot
 
 ![](../.gitbook/assets/msedge_yfu3f8edtp.png)
 
-Now that we have the bot id we go to the **"OAuth2"** tab where we will get the invitation from the bot and in this section we click on the little square that says **"bot"**
+Now that we have the bor id we go to the **"OAuth2"** tab where we will get the invitation from the bot and in this section we click on the little square that says **"bot"**
 
 ![](../.gitbook/assets/oojvdczqo9.png)
 
