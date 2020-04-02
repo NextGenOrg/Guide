@@ -17,7 +17,7 @@ Well to install Node, we'll go to the following link [Node.js download.](https:/
 
 ![](../.gitbook/assets/msedge_2wzchmzmc5.png)
 
- Download the recommended version and install it on your PC
+Download the recommended version and install it on your PC
 
 {% hint style="warning" %}
 **Note:** If you notice that node.js is not installed restart your pc

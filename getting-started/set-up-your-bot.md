@@ -33,8 +33,10 @@ client.on("message", (message) => {
     message.channel.send("pong!");
   }
 });
-client.login("Your Secret Token Bot");     
+client.login("Your Secret Token Bot");
 ```
+
+![](../.gitbook/assets/sublime_text_q6ih6pq5xl.png)
 
 Ok, now replace the line of the "client.login\('Your Secret Token Bot'\)" function with your previously created bot token.
 
@@ -46,8 +48,8 @@ And save everything using _\(CONTROL + S\)._
 
 | **Name** | **Description** |
 | :--- | :--- |
-| Discord |    Defined to reference the discord.js package/module. |
-|   client        | It represents the .Client\(\) class; it is the main axis for interacting with the Discord API, and the starting point for any bot. |
+| Discord | Defined to reference the discord.js package/module. |
+| client | It represents the .Client\(\) class; it is the main axis for interacting with the Discord API, and the starting point for any bot. |
 
 {% hint style="info" %}
 **NOTE:** The variable "client" in some other examples or tutorials is called "bot", but technically it can be called in many ways. It is mostly called "client" to reference the function of .Client\(\);

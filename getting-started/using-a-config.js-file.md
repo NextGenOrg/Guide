@@ -50,7 +50,7 @@ After copying the config code you can change the prefix to which it looks best f
 
 Save the change using \(CONTROL + S\).
 
-##  Prefix and token variable
+## Prefix and token variable
 
 At the top of your bot logic.js file, we added a line to call the config.js file using a variable.
 
@@ -87,13 +87,13 @@ const client = new Discord.Client();
 const { Prefix, token }= require("./config.js");
 
 client.on("ready", () => {
-	console.log("i'm ready")
+    console.log("i'm ready")
 });
 
 var prefix = Prefix
 
 client.on("message", (msg) => {
-	if (msg.content.startsWith(prefix + "ping")) {
+    if (msg.content.startsWith(prefix + "ping")) {
     msg.channel.send("Pong!");
   }
   if (msg.content.startsWith(prefix + "hi")) {
@@ -101,14 +101,14 @@ client.on("message", (msg) => {
   }
 });
 
-client.login(token); 
+client.login(token);
 ```
 
 {% hint style="info" %}
 NOTE: I have created a new "hi" command and the bot will simply answer with a: Hi @Yourname\#0000, but this time you must use the prefix created.
 {% endhint %}
 
- Let's activate the bot again and check the changes with the prefix.
+Let's activate the bot again and check the changes with the prefix.
 
 ![](../.gitbook/assets/hrgirvuqcr.gif)
 
@@ -127,7 +127,7 @@ to prevent this from happening, we must add two conditions within our code, at t
  if (message.author.bot) return;
 ```
 
- The final bot code should look like this:
+The final bot code should look like this:
 
 ```javascript
 const Discord = require('discord.js');
@@ -137,27 +137,27 @@ const Client = new Discord.Client();
 const { Prefix, token }= require("./config.js");
 
 Client.on("ready", () => {
-	console.log("i'm ready")
+    console.log("i'm ready")
 });
 
 var prefix = Prefix
 
 client.on("message", (msg) => {
 
-	if (!msg.content.startsWith(prefix)) return;
-	if (msg.author.bot) return;
+    if (!msg.content.startsWith(prefix)) return;
+    if (msg.author.bot) return;
 
-	if (msg.content.startsWith(prefix + "ping")) {
-		 msg.channel.send("Pong!");
-	}
-	
-	if (msg.content.startsWith(prefix + "hi")) {
-		msg.channel.send("Hi <@" + msg.author + ">");
-	}
-	
+    if (msg.content.startsWith(prefix + "ping")) {
+         msg.channel.send("Pong!");
+    }
+
+    if (msg.content.startsWith(prefix + "hi")) {
+        msg.channel.send("Hi <@" + msg.author + ">");
+    }
+
 });
 
-client.login(token); 
+client.login(token);
 ```
 
 {% hint style="success" %}

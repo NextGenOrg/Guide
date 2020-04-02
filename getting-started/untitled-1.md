@@ -14,7 +14,7 @@ Certainly there are big features that 3.0 has: Goto Definition, a new syntax hig
 
 One of the areas I'm especially proud of in Sublime Text 3 is performance: it's significantly faster than Sublime Text 2 along every axis. Startup is faster, opening files is faster, and scrolling is more efficient. While it's a much larger application than 2, it feels leaner.
 
-> ### So you decide which one you'll use for me. I'll use the Sublime Text 3.0 code editor.
+> #### So you decide which one you'll use for me. I'll use the Sublime Text 3.0 code editor.
 
 ## How to install Sublime Text 3
 
@@ -33,10 +33,9 @@ Sublime Text 3 starts with a simple interface with a nice screen. You have the a
 
 * Open Sublime Text 3
 * Go to File, Open folder.
+
 * Locate the main folder and click Select Folder \(Your files will not appear, only the folder structure\)
 * To the left of the editor you will see all the files. Simply double-click on any of them to view and start editing.
-
-![](../.gitbook/assets/mev6mnrquy.gif)
 
 ## Other code editors
 
@@ -48,4 +47,8 @@ There are many other alternatives to edit your code, this is a small list. You w
 * [Atom](https://atom.io/)
 
 > Note: Don't use the notepad
+
+
+
+
 

@@ -4,17 +4,17 @@ description: In this part I'll teach you how to use events of discord.
 
 # Using Events
 
- We already explored one event handler in [Set up your Bot,](../getting-started/set-up-your-bot.md) the `message` handler. Now let's take a look at some of the most important handlers that you will use, along with an example.
+We already explored one event handler in [Set up your Bot,](../getting-started/set-up-your-bot.md) the `message` handler. Now let's take a look at some of the most important handlers that you will use, along with an example.
 
 {% hint style="danger" %}
- _**DO NOT NEST EVENTS**_ One important point: Do not nest any events \(aka "put one inside another"\). Ever. Events should be at the "root" level of your code, _beside_ the `message` handler and not within it.
+_**DO NOT NEST EVENTS**_ One important point: Do not nest any events \(aka "put one inside another"\). Ever. Events should be at the "root" level of your code, _beside_ the `message` handler and not within it.
 {% endhint %}
 
-##  The `ready` event and its importance
+## The `ready` event and its importance
 
- Ah, asynchronous coding. So awesome. So hard to grasp when you first encounter it. The reality of discord.js and many, many other libraries you will encounter, is that code is not executed one line at a time, one after the other.
+Ah, asynchronous coding. So awesome. So hard to grasp when you first encounter it. The reality of discord.js and many, many other libraries you will encounter, is that code is not executed one line at a time, one after the other.
 
- It should have been made obvious with the user of `client.on("message")` which triggers for each message. To explain how the `ready` event is important, let's look at the following code:
+It should have been made obvious with the user of `client.on("message")` which triggers for each message. To explain how the `ready` event is important, let's look at the following code:
 
 ```javascript
 const Discord = require("discord.js");
@@ -38,7 +38,7 @@ client.on("ready", () => {
 
  client.user.setActivity(`on ${client.guilds.size} servers`);  
  console.log(`Ready to serve on ${client.guilds.size} servers, for ${client.users.size} users.`);
- 
+
  });
 ```
 
@@ -55,7 +55,7 @@ client.on("guildMemberAdd", (member) => {
   console.log(`New User "${member.user.username}" has joined "${member.guild.name}"` );
   //this will send the message to the channel with the name mod-logs
   channel.send(`"${member.user.username}" has joined this server`);
-  
+
 });
 ```
 
@@ -72,7 +72,7 @@ client.on("guildMemberRemove", (member) => {
   console.log(`User "${member.user.username}" He's gone"${member.guild.name}"` );
   //this will send the message to the channel with the name mod-logs
   channel.send(`"${member.user.username}" he's left this server.`);
-  
+
 });
 ```
 

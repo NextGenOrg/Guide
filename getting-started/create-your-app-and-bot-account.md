@@ -30,7 +30,7 @@ Once we have thought of a creative name for our bot and then set a general pictu
 The first thing to note is your bot's token in the "Copy" section \(in the image highlighted in a red box\):
 
 {% hint style="danger" %}
-**WARNING:** Your bot's token is equivalent to an account's password and email address \(not yours\), so never share this code with anyone else but yourself who is not absolutely trustworthy as they may misuse the token.
+ **WARNING:** Your bot's token is equivalent to an account's password and email address \(not yours\), so never share this code with anyone else but yourself who is not absolutely trustworthy as they may misuse the token.
 {% endhint %}
 
 ![](../.gitbook/assets/msedge_i6otwwwr5z.png)

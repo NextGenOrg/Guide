@@ -1,7 +1,7 @@
 ---
 description: >-
-  Welcome to NextGen Team , in this guide we will use Discord.js v12.1.1 which
-  is the version that offers the best stability.
+  Welcome to Logic Development , in this guide we will use Discord.js v11.3.2
+  which is the version that offers the best stability.
 ---
 
 # Welcome
